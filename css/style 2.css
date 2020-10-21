@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body { background: #ffffff; font-family: 'OpenSans-Regular'; padding: 0px; margin: 0px;}
+p {font-family: 'OpenSans-Regular'; padding: 0px; margin: 0px;}
+h1, h2, h3, h4, h5, h6 {padding: 0px; margin: 0px;}
+
+a {text-decoration: none;  color: #00a4e4; }
+a:hover {text-decoration: underline;  color: #00a4e4;}
+
+.clear {clear: both;}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.eot?35936466');
+  src: url('../fonts/OpenSans-Regular.eot?35936466#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Regular.woff2?35936466') format('woff2'),
+       url('../fonts/OpenSans-Regular.woff?35936466') format('woff'),
+       url('../fonts/OpenSans-Regular.ttf?35936466') format('truetype'),
+       url('../fonts/OpenSans-Regular.svg?35936466#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url('../fonts/OpenSans-Semibold.eot?35936466');
+  src: url('../fonts/OpenSans-Semibold.eot?35936466#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Semibold.woff2?35936466') format('woff2'),
+       url('../fonts/OpenSans-Semibold.woff?35936466') format('woff'),
+       url('../fonts/OpenSans-Semibold.ttf?35936466') format('truetype'),
+       url('../fonts/OpenSans-Semibold.svg?35936466#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+header { width: 100%; min-height: 830px; background-image: -webkit-linear-gradient(90deg, #004991, #185a9b); background-image: -moz-linear-gradient(90deg, #004991, #185a9b);background-image: linear-gradient(0deg, #004991, #185a9b);}
+header .container {background: url("../img/header-bg.png") no-repeat top -50px right -150px #0b5196; display: flex; align-items: center; flex-direction: column; justify-content: center; min-height: 830px; width: 100%;}
+header .container h1{color: #fff; font-size: 60px; line-height: 80px; font-weight: normal; padding-bottom: 55px; }
+header .container p{color: #fff; font-size: 18px; line-height: 30px; text-align: center; padding-bottom: 95px;font-weight: normal; }
+header .container button{color: #fff; background: #0eb670; width: 270px; height: 50px; border: 2px solid #22cf87; text-align: center; line-height: 45px; font-size: 16px; text-transform: uppercase; cursor: pointer; border-radius: 25px; font-family: 'OpenSans-Semibold'; letter-spacing: 1px;  transition:all 0.3s ease; outline: none;}
+header .container button:hover{ background: #22cf87; border: 2px solid #0eb670;  transition:all 0.3s ease; color: #004991;}
+
+
+main {width: 100%; max-width: 1200px; margin: 0px auto;	padding: 100px 0px;}
+main .section_top{ padding-bottom: 100px; border-bottom: 1px solid #e1e1e1;}
+main .section_top h2{ text-align: center; color: #004991; font-size: 45px; line-height: 80px; font-weight: normal; padding-bottom: 90px; font-family: 'OpenSans-Semibold';}
+main .section_top .container{ max-width: 960px; width: 100%; margin: 0px auto;}
+
+.contBG {
+  position: relative;
+  width: 100%;
+min-height: 450px;
+}
+
+.contBG div {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+}
+
+.contBG.mobile div {
+  position: static;
+  width: 100%;
+min-height: 450px;
+}
+
+.contBG .survey_result_content {
+  right: 460px;
+	bottom: 200px;
+}
+
+.contBG .survey_result_img{
+  left: 500px;
+}
+
+.contBG .survey_result_graphbg {
+  right: 460px;
+	top: 250px;  width: 100%;
+}
+.contBG .survey_result_graphbg ul  {
+	list-style: none; position: relative;
+	display: block !important;}
+.contBG .survey_result_graphbg ul li {
+	list-style: none;position: relative;
+	display: block !important; min-height: 30px;}
+	
+
+
+main .section_bot{ padding-top: 100px; }
+main .section_bot h2{ text-align: center; color: #004991; font-size: 45px; line-height: 80px; font-weight: normal; padding-bottom: 90px; font-family: 'OpenSans-Semibold';}
+main .section_bot .container{ max-width: 960px; width: 100%; margin: 0px auto;}
+
+
+
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.col-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+
+
+@media only screen and (min-width: 0px) and (max-width: 959px){
+	.contBG div { position: static;}
+	.contBG .survey_result_content { min-height: 150px;}
+	.contBG .survey_result_graphbg { min-height: 150px;}
+	.contBG .survey_result_img { min-height: 150px;}
+	
+	
+}
+
+
+
+

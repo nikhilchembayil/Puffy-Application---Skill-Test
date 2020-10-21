@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body { background: #ffffff; font-family: 'OpenSans-Regular'; padding: 0px; margin: 0px;}
+p {font-family: 'OpenSans-Regular'; padding: 0px; margin: 0px;}
+h1, h2, h3, h4, h5, h6 {padding: 0px; margin: 0px;}
+
+a {text-decoration: none;  color: #00a4e4; }
+a:hover {text-decoration: underline;  color: #00a4e4;}
+
+.clear {clear: both;}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.eot?35936466');
+  src: url('../fonts/OpenSans-Regular.eot?35936466#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Regular.woff2?35936466') format('woff2'),
+       url('../fonts/OpenSans-Regular.woff?35936466') format('woff'),
+       url('../fonts/OpenSans-Regular.ttf?35936466') format('truetype'),
+       url('../fonts/OpenSans-Regular.svg?35936466#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url('../fonts/OpenSans-Semibold.eot?35936466');
+  src: url('../fonts/OpenSans-Semibold.eot?35936466#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Semibold.woff2?35936466') format('woff2'),
+       url('../fonts/OpenSans-Semibold.woff?35936466') format('woff'),
+       url('../fonts/OpenSans-Semibold.ttf?35936466') format('truetype'),
+       url('../fonts/OpenSans-Semibold.svg?35936466#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.adsple {padding-left: 40px;}
+.adspri {padding-right: 40px;}
+.adsptop {padding-top: 50px;}
+.adspbot {padding-right: 50px;}
+
+.adsptop_marg {margin-top: 50px;}
+
+header { width: 100%; min-height: 830px; background-image: -webkit-linear-gradient(90deg, #004991, #185a9b); background-image: -moz-linear-gradient(90deg, #004991, #185a9b);background-image: linear-gradient(0deg, #004991, #185a9b);}
+header .container {background: url("../img/header-bg.png") no-repeat top -50px right -150px #0b5196; display: flex; align-items: center; flex-direction: column; justify-content: center; min-height: 830px; width: 100%;}
+header .container h1{color: #fff; font-size: 60px; line-height: 80px; font-weight: normal; padding-bottom: 55px; }
+header .container p{color: #fff; font-size: 18px; line-height: 30px; text-align: center; padding-bottom: 95px;font-weight: normal; }
+header .container button{color: #fff; background: #0eb670; width: 270px; height: 50px; border: 2px solid #22cf87; text-align: center; line-height: 45px; font-size: 16px; text-transform: uppercase; cursor: pointer; border-radius: 25px; font-family: 'OpenSans-Semibold'; letter-spacing: 1px;  transition:all 0.3s ease; outline: none;}
+header .container button:hover{ background: #22cf87; border: 2px solid #0eb670;  transition:all 0.3s ease; color: #004991;}
+
+
+main {width: 100%; max-width: 1200px; margin: 0px auto;	padding: 100px 0px;}
+main .section_top{ padding-bottom: 100px; border-bottom: 1px solid #e1e1e1;}
+main .section_top h2{ text-align: center; color: #004991; font-size: 45px; line-height: 80px; font-weight: normal; padding-bottom: 90px; font-family: 'OpenSans-Semibold';}
+main .section_top .container{ max-width: 960px; width: 100%; margin: 0px auto;}
+
+
+.contBG { position: relative; width: 100%;min-height: 400px;}
+.contBG div { position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+.contBG.mobile div { position: static; width: 100%; min-height: 450px;}
+.contBG .survey_result_content { right: 460px;bottom: 150px; font-size: 14px; line-height: 22px; }
+.contBG .survey_result_content p{  text-align: justify; color: #4d5059;}
+
+.contBG .survey_result_img{ left: 500px; text-align: right;}
+.contBG .survey_result_img img{ width: 400px;}
+
+.contBG .survey_result_graphbg { right: 460px;top: 210px;  width: 100%;}
+.contBG .survey_result_graphbg .graph_valuehead {position: relative; width: 180px; border:0px solid red; height: 30px; margin-left: 280px; font-size: 14px;  color: #004991;}
+.contBG .survey_result_graphbg .graph_valuehead span{float: right; color: #50bae7;}
+
+.contBG .survey_result_graphbg ul  {list-style: none; position: relative;display: block !important;}
+.contBG .survey_result_graphbg ul li {list-style: none;position: relative;display: block !important; min-height: 30px; font-size: 14px; margin-bottom: 4px; color: #004991;}
+.contBG .survey_result_graphbg ul li .box_left {width: 35%; display: inline-block;  float: left; margin-right: 15%; line-height: 30px;}
+.contBG .survey_result_graphbg ul li .box_right {width: 27%; display: inline-block; text-align: right; float: right; margin-left: 25%; font-size: 11px;}
+.contBG .survey_result_graphbg ul li .box_right .chartbg{background: #004991; width: 100%; border-radius: 100px; overflow: hidden; padding-left: 10px; color: #fff;}
+.contBG .survey_result_graphbg ul li .box_right .chartbg .female{background: #50bae7; height: 30px; padding-right: 10px; }
+
+
+main .section_bot{ padding-top: 100px; }
+main .section_bot h2{ text-align: center; color: #004991; font-size: 45px; line-height: 80px; font-weight: normal; padding-bottom: 90px; font-family: 'OpenSans-Semibold';}
+main .section_bot h3{ text-align: center; color: #004991; font-size: 25px; line-height: 32px; font-weight: normal; padding-bottom: 20px; font-family: 'OpenSans-Semibold';}
+main .section_bot p{ text-align: center; color: #4d5059; font-size: 14px; line-height: 22px; }
+main .section_bot .container{ max-width: 960px; width: 100%; margin: 0px auto;}
+main .section_bot .container .mattressbg{ width: 440px; height: 320px; border: 0px solid red; position:relative;}
+
+main .section_bot .container .mattressbg .mat01{ position: absolute; bottom: 155px; background: url("../img/mattress-dark-blue.png") no-repeat 0px 0px; width: 433px; height: 157px; z-index: 4; }
+main .section_bot .container .mattressbg .mat02{ position: absolute; bottom: 110px; background: url("../img/mattress-light-blue.png") no-repeat 0px 0px; width: 430px; height: 155px; z-index: 3;}
+main .section_bot .container .mattressbg .mat03{ position: absolute; bottom: 62px; background: url("../img/mattress-very-light-blue.png") no-repeat 0px 0px; width: 437px; height: 153px; z-index: 2;}
+main .section_bot .container .mattressbg .mat04{ position: absolute; bottom: 0px; background: url("../img/mattress-gray.png") no-repeat 0px 0px; width: 433px; height: 169px; z-index: 1;}
+
+
+
+main .section_bot .container .mattressbg .btnbg1{  bottom: 180px; }
+main .section_bot .container .mattressbg .btnbg2{  bottom: 133px; }
+main .section_bot .container .mattressbg .btnbg3{  bottom: 82px; }
+main .section_bot .container .mattressbg .btnbg4{  bottom: 10px; }
+
+main .section_bot .container .mattressbg .btnbg {position: absolute !important; margin: 0px auto; left: 0px; right: 0px; width: 210px; height: 40px; z-index: 15 !important; }
+main .section_bot .container .mattressbg .btnbg p{ color: #234c85; display: inline-block;  border-radius: 5px; padding: 3px 10px; background-color: rgba(255, 255, 255, 0.7); background: rgba(255, 255, 255, 0.7); vertical-align: top; 
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6); -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);}
+main .section_bot .container .mattressbg .btnbg i.open{ width: 35px; height: 27px; background: url("../img/open.png") no-repeat; background-size: 27px 27px; display: inline-block; cursor: pointer; }
+main .section_bot .container .mattressbg .btnbg i.close{  height: 27px; background: url("../img/close.png") no-repeat; background-size: 27px 27px; display: inline-block; cursor: pointer; opacity: 0; width: 0px;}
+
+main .section_bot .container .mattressbg .popbg{ width: 220px; height: 125px; border-radius: 5px; padding: 0px; background-color: rgba(255, 255, 255, 0.9); background: rgba(255, 255, 255, 0.9); vertical-align: top; -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6); -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6); position: absolute; z-index: 50; overflow: hidden; display: none;}
+main .section_bot .container .mattressbg .popbg.pop1bg {top: 147px; left: 158px;} 
+main .section_bot .container .mattressbg .popbg.pop2bg {top: 147px; left: 158px;} 
+main .section_bot .container .mattressbg .popbg.pop3bg {top: 198px; left: 158px;} 
+main .section_bot .container .mattressbg .popbg.pop4bg {top: 270px; left: 158px;} 
+
+main .section_bot .container .mattressbg .popbg h4 {background: #004991; color: #fff; text-align: center; height: 20px; font-size: 11px; line-height: 20px;} 
+main .section_bot .container .mattressbg .popbg h5 { color: #004991; text-align: left; padding: 2px 10px; font-size: 13px; line-height: 20px;} 
+main .section_bot .container .mattressbg .popbg p { color: #4d5059; text-align: left; padding: 2px 10px; font-size: 9px; line-height: 14px;} 
+
+
+main .section_bot .container .priceBG {width: 240px; margin: 0px auto; border: 0px solid red; padding-top: 50px; min-height: 70px;}
+main .section_bot .container .priceBG .pricecopyleft{width: 100px; margin: 0px auto; border: 0px solid red; display: inline-block; text-align: left; vertical-align: top;}
+main .section_bot .container .priceBG .pricecopyleft p{text-align: left;}
+main .section_bot .container .priceBG .pricecopyleft i{font-style: normal; text-decoration: line-through;}
+main .section_bot .container .priceBG .pricecopyleft label{text-align: center; color: #eb505b;}
+
+main .section_bot .container .priceBG .pricecopyline {text-align: center; display: inline-block; width: 20px; vertical-align: top;  min-height: 20px;  padding: 20px 0px; position: relative;}
+main .section_bot .container .priceBG .pricecopyline span{ position: relative;  height: 20px; width: 100%;  }
+main .section_bot .container .priceBG .pricecopyline span::before{  height: 25px; background: #fff; position: absolute; content: 'or'; width: 25px; color: #818181; line-height: 25px; font-size: 12px; left: -12px; top: 0px;}
+main .section_bot .container .priceBG .pricecopyline::before {width: 1px; min-height: 70px; position: absolute; content: ''; left: 0px; right: 0px; margin: 0px auto; background: #818181;	top: 0px;}
+
+main .section_bot .container .priceBG .pricecopyright{width: 110px; margin: 0px auto; border: 0px solid red; display: inline-block; text-align: center;}
+main .section_bot .container .priceBG .pricecopyright p{text-align: center;}
+main .section_bot .container .priceBG .pricecopyright p span{text-align: center; font-family: 'OpenSans-Semibold';}
+main .section_bot .container .priceBG .pricecopyright label{text-align: center; color: #eb505b; font-family: 'OpenSans-Semibold';}
+main .section_bot .container .shopnow { width: 240px; margin: 10px auto 0px !important;}
+main .section_bot .container .shopnow button{color: #fff; background: #0eb670; width: 240px; height: 45px; border: 2px solid #22cf87; text-align: center; line-height: 40px; margin: 10px auto 0px !important;font-size: 16px; text-transform: uppercase; cursor: pointer; border-radius: 25px; font-family: 'OpenSans-Semibold'; letter-spacing: 1px;  transition:all 0.3s ease; outline: none;}
+main .section_bot .container .shopnow button:hover{ background: #22cf87; border: 2px solid #0eb670;  transition:all 0.3s ease; color: #004991;}
+
+
+
+.mattress_left_mat01 {bottom: 110px !important;}
+
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.col-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+
+.sub_boxbg {height: 150px;}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 959px){
+	.text-left {text-align: left !important; padding-right: 15px;}
+	.text-right {text-align: right !important; padding-left: 15px;}
+	.contBG div { position: static;}
+	.contBG .survey_result_content { min-height: 150px;}
+	.contBG .survey_result_graphbg { min-height: 150px;}
+	.contBG .survey_result_img { min-height: 150px;}
+	
+	.contBG .survey_result_graphbg ul li .box_left {width: 100%;  margin-right: 0%;}
+	.contBG .survey_result_graphbg ul li .box_right {width: 100%;  margin-left: 0%;}
+	
+	main {overflow: hidden !important; position: relative; padding: 30px 30px 50px;}
+	header {min-height: 550px;}
+	header .container { min-height: 550px; padding: 0px 30px; background-position: top 0px right -150px; background-size: cover;}
+	header .container h1 {font-size: 50px; line-height: 60px; padding-bottom: 25px; text-align: center;}
+	header .container p {font-size: 16px; line-height: 28px; padding-bottom: 30px;}
+	header .container button {width: 200px;}
+	main .section_top h2, main .section_bot h2 {font-size: 32px; line-height: 45px; padding-bottom: 40px; padding-top: 30px;}
+	.contBG .survey_result_img {text-align: center;}
+	main .section_bot {padding-top: 50px;}
+	.contBG .survey_result_graphbg {min-height: 250px;}
+	.contBG .survey_result_graphbg ul li {margin-bottom: 35px;}
+	
+	.contBG .survey_result_graphbg .graph_valuehead { width: 60%; margin: 0px auto 25px;font-weight: bold;font-size: 18px;}
+	
+	.right_mat1_mob, .right_mat2_mob, .right_mat3_mob, .right_mat4_mob, .left_mat1_mob, .left_mat3_mob, .left_mat4_mob {background-size: 100% !important; width: 100% !important; }
+	
+	.left_mat3_mob {bottom: 40px !important;}
+	.left_mat1_mob {bottom: 65px !important;}
+	
+	.right_mat3_mob {bottom: 40px !important;}
+	.right_mat1_mob {bottom: 92px !important;}
+	.right_mat2_mob {bottom: 65px !important;}
+	
+	
+	.repari {padding: 0px !important;}
+	.left-mob-resp {width: 125% !important; margin-left: -50%;}
+	.right-mob-resp {width: 125% !important; margin-left: 20%;}
+	
+	.sub_boxbg {height: 200px;} 
+	.adbrmob {display: block;}
+	
+	
+	.mobleftbtn01 { border: 0px solid red; left: 45% !important;}
+	.mobleftbtn02 { border: 0px solid red; left: 45% !important;}
+	.mobleftbtn03 { border: 0px solid red; left: 45% !important;}
+	
+	
+	main .section_bot .container .mattressbg .mobleftbtn01 p, main .section_bot .container .mattressbg .mobleftbtn02 p, main .section_bot .container .mattressbg .mobleftbtn03 p   {float: left; font-size: 9px !important; padding: 2px 5px !important; line-height: 15px;}
+	main .section_bot .container .mattressbg .mobrightbtn01 p, main .section_bot .container .mattressbg .mobrightbtn02 p, main .section_bot .container .mattressbg .mobrightbtn03 p, main .section_bot .container .mattressbg .mobrightbtn04 p   { font-size: 9px !important; padding: 2px 5px !important;  line-height: 15px;}
+	main .section_bot .container .mattressbg .mobrightbtn01, main .section_bot .container .mattressbg .mobrightbtn02, main .section_bot .container .mattressbg .mobrightbtn03, main .section_bot .container .mattressbg .mobrightbtn04 { padding-left: 10px;}
+	
+	main .section_bot .container .mattressbg .btnbg {width: 75% !important; right: auto !important;	}
+	
+	main .section_bot .container .mattressbg .btnbg1 {bottom: 35%;}
+	main .section_bot .container .mattressbg .btnbg2 {bottom: 22%;}
+	main .section_bot .container .mattressbg .btnbg3 {bottom: 13%;}
+	main .section_bot .container .mattressbg .btnbg4 {bottom: 0%;}
+	
+	
+	
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+	main .section_bot .container .mattressbg .btnbg1 {bottom: 167px;}
+	main .section_bot .container .mattressbg .btnbg2 {bottom: 136px;}
+	main .section_bot .container .mattressbg .btnbg3 {bottom: 104px;}
+	main .section_bot .container .mattressbg .btnbg4 {bottom: 70px;}
+	
+	
+}
+@media only screen and (min-width: 0px) and (max-width: 580px){
+
+	
+	header {min-height: 410px;}
+	header .container { min-height: 410px; }
+	header .container h1 {font-size: 38px; line-height: 50px; padding-bottom: 15px; text-align: center;}
+	header .container p {font-size: 12px; line-height: 20px; padding-bottom: 30px;}
+	header .container button {width: 200px;}
+	
+	
+	main .section_bot .container .priceBG .pricecopyleft, main .section_bot .container .priceBG .pricecopyline, main .section_bot .container .priceBG .pricecopyright {display: block; text-align: center;}
+	main .section_bot .container .priceBG, main .section_bot .container .shopnow {width: 100%; padding-top: 0px;}
+	main .section_bot .container .priceBG .pricecopyline {text-align: center !important; width: 100%;}
+	main .section_bot .container .shopnow  { text-align: center;}
+	main .section_bot .container .shopnow button {width: 130px; font-size: 14px;}
+	main .section_bot .container .priceBG .pricecopyleft p {text-align: center;}
+	main .section_top h2, main .section_bot h2 {font-size: 30px; line-height: 40px; padding-bottom: 10px;}
+	.contBG .survey_result_img img {width: 100%; padding: 30px 0px;}
+	
+	.contBG .survey_result_graphbg ul li .box_left {text-align: center;}
+	.contBG .survey_result_graphbg {min-height: 300px;}
+	.contBG .survey_result_graphbg ul li {margin-bottom: 40px;}
+	main .section_bot h2 {padding-bottom: 30px !important;}
+	main .section_bot {padding-top: 50px ;}
+	main .section_bot h3 {font-size: 20px; line-height: 25px; padding-bottom: 10px;}
+	
+	main .section_bot .container .priceBG .pricecopyline::before { width: 90px; min-height: 1px; margin: auto;  top: 20px;}
+	main .section_bot .container .priceBG .pricecopyline span::before { top: -13px;}
+	main .section_bot .container .mattressbg {height: 270px;}
+	
+	main .section_bot p {font-size: 11px; line-height: 18px;}
+	.right-mob-resp {width: 145% !important;}
+	.left-mob-resp {width: 145% !important;}
+	.mobleftbtn01, .mobleftbtn02, .mobleftbtn03 {left: 32% !important;}
+	
+	.left_popbg1 {top: 46% !important; left: 138px !important;}
+	.left_popbg2 { top: 58% !important; left: 138px !important;}
+	.left_popbg3 {top: 72% !important; left: 138px !important;}
+	
+}
+
+@media only screen and (min-width: 0px) and (max-width: 360px){
+	main {padding: 15px 15px 30px;}
+	main .section_bot .container .mattressbg .btnbg2 {bottom: 138px;}
+	main .section_bot .container .mattressbg .btnbg3 {bottom: 110px;}
+	main .section_bot .container .mattressbg .btnbg4 {bottom: 77px;}
+	main .section_bot .container .mattressbg .btnbg1 {bottom: 171px;}
+	main .section_bot .container .mattressbg .btnbg i.open {width: 25px; background-size: 22px;}
+	
+}
+
+
+
+
